@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/homework1part2"
+        android:textSize="42sp" />
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="cursive"
+        android:hint="@string/text"
+        android:inputType="text"
+        android:text="Text"
+        android:textSize="32sp"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="cursive"
+        android:hint="@string/text"
+        android:inputType="textPersonName"
+        android:text="@string/person_name"
+        android:textSize="32sp"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="cursive"
+        android:hint="@string/person_phone"
+        android:inputType="number|phone"
+        android:text="@string/number_phone"
+        android:textSize="32sp" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="cursive"
+        android:hint="@string/password"
+        android:inputType="numberPassword"
+        android:text="@string/password"
+        android:textSize="32sp" />
+
+    <EditText
+        android:id="@+id/editEmailAdress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="cursive"
+        android:hint="@string/email_adress"
+        android:inputType="textEmailAddress"
+        android:text="@string/email_adress"
+        android:textSize="32sp" />
+
+    <CalendarView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"></CalendarView>
+
+</LinearLayout>
